@@ -1,4 +1,4 @@
-# bootstrap_project
+# Bootstrap Project
 
 A study on the Bootstrap Project.
 
