@@ -1,0 +1,142 @@
+.resimSlider {
+    height: 620px;
+}
+
+body{
+    padding-top: 55px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.hakkimizda {
+    background-color: #f2f2f2;
+}
+
+.ayrac{
+    border:none;
+    border-top:5px solid rgb(0, 0, 0);
+    max-width: 270px;
+    margin: 25px auto;
+}
+
+.igri {
+    font-size: 30px;
+    color: rgb(128, 128, 128);
+    position: relative;
+    top: -40px;
+    background-color: #f2f2f2;
+    width: 60px;
+}   
+
+.ekip{
+    margin-left: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.ibeyaz {
+    font-size: 30px;
+    color: rgb(151, 151, 151);
+    position: relative;
+    top: -40px;
+    background-color: white;
+    width: 60px;
+}   
+
+.ekipCard{
+    height:360px;
+}
+.ekipCard:hover {
+    opacity: 80%;
+}
+
+.galeri{
+    background-color:#f2f2f2;
+}
+
+.iletisim{
+    background-color: white;
+}
+
+.form {
+    margin: auto;
+    width: 50% !important;
+}
+
+.button01 {
+    color: white !important;
+}
+
+.button01:hover{
+    background-color: blue !important;
+    
+}
+
+@media(max-width: 1400px) {
+    .card-body {
+        margin: 0;
+        height: 150px !important;
+    }
+    .ekipCard{
+        height:320px;
+    }
+    .resimSlider {
+        height: 500px;      
+    }
+}
+
+@media(max-width: 980px) {
+    .card-body {
+        height: 170px !important;
+    }
+
+    .ekip-yazi {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .ekipCard{
+        height:200px;
+    }
+
+    .ekip p{
+        font-size: 10px;
+    }
+    
+    .ekip div{
+        width: 100px;
+    }
+    
+    .ekip .card-deck{
+        margin: 5px;
+    }
+    
+    .resimSlider {
+        height: 400px;      
+    }
+
+}
+
+@media(max-width: 750px) {
+
+    .card-body {
+        height: 90px !important;
+    }
+    .ekipCard{
+        height:180px;
+    }
+    .ekip-yazi {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .ekip p{
+        font-size: 8px;
+    }
+
+    .ekip .card-deck{
+        margin: 2px;
+    }
+    
+    .resimSlider {
+        height: 220px;      
+    }
+}
